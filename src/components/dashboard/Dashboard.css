@@ -1,0 +1,151 @@
+body {
+    background: #ccc;
+}
+img {
+    margin-top: 5%;
+    height:1.05cm;
+}
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    max-height: 10%;
+    background-color: white;
+    align-items: center;
+
+}
+
+.logo-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.logo-content1{
+    margin-left: 50%;
+}
+
+.header-text {
+    font: normal normal bold 25px/30px Montserrat;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0px;
+    color: deepskyblue;
+    text-transform: capitalize;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.header-text-book {
+    font: normal normal bold 25px/30px Montserrat;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.header{
+    min-height: 1cm;
+    background-color: deepskyblue;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px
+}
+.contact-count{
+    margin-left: 1%;
+    background-color: #82a70c;
+    color: #ffffff;
+    border-radius: 25%;
+    font-size: 20px;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+}
+.contact-details{
+    display: flex;
+    font: normal normal bold 24px/25px Roboto;
+    letter-spacing: 0px;
+    color: white;
+    margin-left: 15px;
+    margin-top:0.5%;
+    min-width: 100%;
+    text-transform: capitalize;
+}
+button{
+    
+    min-height: 1cm;
+    min-width: 3cm;
+    border-radius: 8px;
+    font-size: 18px;
+    font: bold;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #ffff99;
+    margin-left: 950%;
+    border:0px;
+}
+.table-main{
+    margin-left: 5%;
+    margin-right: 5%;
+    min-height: 85vh;
+    max-height: 70%;
+    background-color: white;
+    border-radius: 5px;
+}
+.table-content{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    min-height: 70%;
+}
+.add-button{
+    font: normal normal normal 22px/29px Roboto;
+    letter-spacing: 0px;
+    color: black;
+    opacity: 1;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 75%;
+    max-height: 1cm;
+    max-width: 3cm;
+    cursor: pointer;
+}
+
+
+td,th{
+    text-align: center;
+    padding: 5px 8px;
+
+ }
+td{
+    min-width: 100%;
+    justify-content: center;
+}
+ th{
+     background: #42515f 0% 0% no-repeat padding-box;
+     border-radius: 3px 3px 0px 0px;
+     text-align: center;
+     font: normal normal medium 18px/24px Roboto;
+     letter-spacing: 0px;
+     color: #ffffff;
+     text-transform: uppercase;
+     opacity: 1;
+     border: 0px solid #dddddd;
+     min-width: 100%;
+ }
+ tr:nth-child(odd) {background-color: #cccc;}
+ tr{
+     min-width: 100%;
+     justify-content: center;
+ }
+ .table{
+     min-width: 100%;
+ }
+
+ .icon{
+     max-width: 0.5cm;
+     max-height: 0.5cm;
+     cursor: pointer;
+ }
+ 

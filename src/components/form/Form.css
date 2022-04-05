@@ -1,0 +1,154 @@
+body {
+    background: #e6e6e6;
+}
+
+img {
+    margin-top: 5%;
+    height:1.05cm;
+}
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    max-height: 10%;
+    background-color: white;
+
+}
+
+.logo-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5%;
+    margin-left: 10%;
+}
+.logo-content1{
+    margin-left: 50%;
+}
+
+.error{
+    font-size:13px;
+    color:red;
+    margin-left: 27%;
+}
+.header-text {
+    font: normal normal bold 25px/30px Montserrat;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0px;
+    color: deepskyblue;
+    text-transform: capitalize;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.headet-text-book {
+    font: normal normal bold 25px/30px Montserrat;
+    text-align: left;
+    margin-left: 10%;
+}
+.header {
+    padding: 15px 0;
+    border-color: rgb(199, 240, 234);
+}
+
+.form-content {
+    background-color: rgb(242, 244, 247);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.main-content{
+    min-width: 60%;
+    max-width: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.header-content {
+    min-height: 2cm;
+    align-items: center;    
+    border-radius: 0.1cm;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 191, 255, 0.89);
+    margin-top: 0%;
+    color: white;
+}
+
+
+.input {
+    width: 68%;
+    height: 0.8cm;
+    margin-left:10%;
+}
+
+
+.row-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 6%;
+    color: gray;
+    margin-top: 1%;
+    min-height: 1cm;
+    
+}
+
+
+.text {
+    color: black;
+}
+
+
+.column-content {
+    flex: 3;
+    flex-wrap: wrap;
+}
+.radio-button{
+    margin-left: 10%;
+}
+.profile {
+    margin-left: 109px;
+  }
+  
+.profile-radio-button{
+    display: flex;
+
+}
+.form-head-image {
+    height: 1cm;
+    width: 1cm;
+    margin-right: 1cm;
+    border-radius: 2mm;
+}
+.label-text1{
+    max-width: 10%;
+    color:black
+}
+.input1{
+    width: 68%;
+    height: 0.8cm;
+    margin-left:2%;
+}
+.label-text {
+    color: black;
+    margin-left: 0.1cm;
+    min-width: 12%;
+}
+
+.submit-button {
+    height: 1.1cm;
+    width: 2.7cm;
+    font-weight: bolder Montserrat;
+    background-color: #cccc;
+    border-radius: 2mm;
+    margin-left: 8%;
+}
+
+.updateButton {
+    height: 1.1cm;
+    width: 2.7cm;
+    font-weight: bolder Montserrat;
+    background-color: #cccc;
+    border-radius: 2mm;
+    margin-left: 65%;
+}

@@ -12,6 +12,7 @@ import edit from '../../assets/create-black-18dp.svg';
 import { withRouter } from "react-router-dom";
 
 class Dashboard extends React.Component {
+    
     constructor(props) {
         super(props)
         this.state = {
@@ -30,8 +31,6 @@ class Dashboard extends React.Component {
         ContactService.deleteConatact(contactID);
         window.location.assign(`http://localhost:3000/`);
         window.location.assign(`http://localhost:3000/`);
-        //this.props.history.push('/');
-        //window.history.pushState("/");
     }
 
     updateContact = (contactId) => {

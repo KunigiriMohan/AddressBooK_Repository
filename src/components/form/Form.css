@@ -54,13 +54,14 @@ img {
     display: flex;
     width: 100%;
     flex-direction: column;
+    border-radius: 5px;
 }
 
 .main-content{
     min-width: 60%;
     max-width: 60%;
     margin-left: 20%;
-    margin-top: 2%;
+    margin-top: 0.5%;
 }
 
 .header-content {
@@ -107,7 +108,7 @@ img {
     margin-left: 10%;
 }
 .profile {
-    margin-left: 109px;
+    margin-left: 90px;
   }
   
 .profile-radio-button{
@@ -125,7 +126,7 @@ img {
     color:black
 }
 .input1{
-    width: 68%;
+    width: 52%;
     height: 0.8cm;
     margin-left:2%;
 }

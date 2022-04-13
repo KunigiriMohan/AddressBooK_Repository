@@ -3,7 +3,8 @@ class AddressService{
     baseURL=`http://localhost:8080/personlist`;
 
     addContact(data){
-        return axios.post(this.baseURL+`/create`,data)
+        //return axios.post(this.baseURL+`/create`,data)
+        return axios.post(`http://localhost:3006/addressBook`,data);
     }
 
     getContact(){
